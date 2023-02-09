@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.container {
+    margin: 1rem;
+    max-width: 1152px;
+
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+}
+
+.col-1 {
+    width: calc(100% / 7);
+    position: relative;
+    padding: 2rem;
+    border: 5px solid black;
+    background-color: blue;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+.bage {
+    position: absolute;
+    background-color: red;
+    color: white;
+}
+
+.containerbar {
+    display: flex;
+    background-color: darkslategray;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.leftbar {}
+
+.centerbar {}
+
+.rightbar {}

@@ -6,7 +6,7 @@
 
 #app_header {
     height: 50px;
-    background-color: darkslategray;
+    background-color: black;
     text-align: end;
 
 }
@@ -21,75 +21,72 @@
 
 }
 
-#app_main {
-    background-color: blue;
-   height:calc(120vh- 100px) ;
-
+#app-main {
+    height: calc(100vh - 120px);
+    background-color: black;
 }
 
-.columns {
+.partecipants {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
     overflow-y: auto;
-
-
-
 }
 
-.column {
+.partecipant {
     position: relative;
     width: 250px;
-   
-    
+    height: 150px;
 }
 
-
-.names {
+.name {
     position: absolute;
-    right: 3.20rem;
+    left: 0;
     bottom: 0.25rem;
-    background-color: red;
-    padding: 0.25rem;
+    background-color: lightgray;
     color: white;
+    padding: 0.25rem
 }
 
 
-
-
-
-#app_footer {
-    height: 70px;
-    background-color: yellow;
+#app-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    background-color: darkslategray;
+    height: 70px;
 }
 
-.fleft .fcenter .fright {
+.footer-left,
+.footer-center,
+.footer-right {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    height: 100%;
 
 }
 
-footer .icona {
+footer .icon {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
-footer .icona>span {
+footer .icon>span {
     font-size: 0.8rem;
-
 }
 
-.fright button {
+.footer-right button {
     height: 100%;
+    padding: 0 1rem;
     color: red;
-
+    background: lightgray;
+    border: none;
 }
 
-
-img {
-    max-width: 100%;
+.coloregreen {
+    color: lime;
 }
